@@ -1,11 +1,10 @@
-
 from flask import Flask, request
 import requests
 
 app = Flask(__name__)
 
 BOT_TOKEN = "7962131421:AAFgZruC54XSLbTI0r7-TvNUF72hc151P0E"
-CHAT_ID = "5933740363"
+CHAT_ID = "-1001399382341"  # 👈 Updated with your channel ID
 
 @app.route('/', methods=['POST'])
 def send_telegram():
